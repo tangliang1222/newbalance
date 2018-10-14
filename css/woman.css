@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+	
+	/*这里是头部图片区域*/
+	.header{
+		width: 100%;
+		height: 350px;
+		/*background-color: blue;*/
+	}
+	.header .headson{
+		width: 1519px;
+		height: 350px;
+		background-image: url(../images/a.png);
+		background-size: 100% 350px;
+		margin: 0 auto;
+	}
+	
+
+	/*这是二级导航*/
+	.nav-b{
+		width: 100%;
+		height: 80px;
+		/*background-color: red;*/
+	}
+	.nav-b .navbson{
+		width: 1200px;
+		height: 80px;
+		margin: 0 auto;
+		/*background-color: gray;*/
+	}
+	.nav-b .navbson ul {
+		height: 80px;
+		line-height: 80px;
+	}
+	.nav-b .navbson ul li{
+		float: left;
+		margin-left: 12px;
+		font-size: 14px;
+		color: #AFAFAF;
+
+	}
+	.nav-b .navbson ul li a{
+	 	color:#525252;
+	}
+	.nav-b .navbson ul li a:hover{
+		color: red;
+	}
+
+
+	/*这里是展览区*/
+	.main{
+		width:  100%;
+		height: 2600px;
+		/*background-color: green;*/
+		margin-top: 50px;
+	}
+	.main .mainson{
+		width: 1230px;
+		height: 2600px;
+		margin: 0 auto;
+		/*background-color: blue;*/
+	}
+	/*main左边布局*/
+	.main .mainson .mainLeft{
+		width: 280px;
+		height: 2600px;
+		float: left;
+		font-size: 13px;
+		/*background-color: skyblue;*/
+	}
+	.main .mainson .mainLeft p{
+		font-size: 16px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		color: #666666;
+	}
+	.main .mainson .mainLeft a{
+		color: #666666;
+	}
+	.main .mainson .mainLeft a:hover{
+		color: red;
+	}
+	/*main右边布局*/
+	.main .mainson .mainRight{
+		width: 900px;
+		float: left;
+		height: 2600px;
+		margin-left: 50px;
+		position: relative;
+		/*background-color: red;*/
+	}
+	.main .mainson .mainRight span{
+		color: #676767;
+	}
+	/*.main .mainson .mainRight .displa-1{
+		width: 900px;
+		float: left;
+		height: 
+	}*/
+	.main .mainson .mainRight .displa{
+		width: 220px;
+		height: 370px;
+		float: left;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border: 1px solid white;
+	}
+	.main .mainson .mainRight .displa:hover{
+		border: 1px solid gray;
+	}
+	.main .mainson .mainRight .displa .img-d1{
+		width: 210px;
+		height: 200px;
+		margin: 5px;
+	}
+	.main .mainson .mainRight .displa .img-d2{
+		width: 20px;
+		height: 20px;
+		margin-left: 100px;
+	}
+	.main .mainson .mainRight .displa p{
+		text-align: center;
+		margin-left: 15px;
+		margin-right: 15px;
+		color: black;
+	}
+	.main .mainson .mainRight .displa .tex-d1{
+		font-size: 13px;
+	}
+	.main .mainson .mainRight .displa .tex-d2{
+		color: gray;
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	.main .mainson .mainRight span a{
+		position: absolute;
+		left: 260px;
+		bottom: 100px;
+		color: #EA6536;
+	} 
+	.main .mainson .mainRight span a:hover{
+		color: #98676E;
+	}

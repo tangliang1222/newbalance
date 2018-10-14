@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+
+	/*设置类*/
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	*, ul li{
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	ul{
+		list-style: none;
+	}
+	hr{
+		border: none;
+		height: 1px;
+		background-color: #323232;
+		width: 100%;
+	}
+
+
+
+	/*头部*/
+	.asideF{
+		width: 100%;
+		height: 30px;
+	}
+	.aside{
+		width: 1519px;
+		height: 30px;
+		background-color: black;
+		color: white;
+		position: relative;
+		margin: 0 auto;
+	}	
+	/*左边自适应大小*/
+	.aside .zhuc{
+		/*width: 92%;*/
+		font-size: 17px;
+		background-color: black;
+		text-align: center;
+
+	}
+	.aside .zhuc a{
+		color: white;
+		line-height: 30px;
+	}
+	.aside .zhuc span{
+		text-decoration: underline;
+	}
+	.aside .login{
+		height: 30px;
+		width: 150px;
+		/*display: flex;*/
+		float: right;
+		font-size: 10px;
+		line-height: 30px;
+		overflow: hidden;
+	}
+	/*设置右边对齐*/
+	.aside .login img{
+		height: 30px;
+		float: left;
+		display: block;
+		margin-left: 5px;
+	}
+	.aside .login a span{
+		height: 30px;
+		line-height: 30px;
+		display: block;
+		float: left;
+		margin-left: 3px;
+	}
+	.aside .login :nth-child(1){
+		float: left;
+	}
+	.aside .login :nth-child(3){
+		color: #D1D1D1;
+	}
+	
+	
+
+	/*一级导航*/
+	.nav-a{
+		width: 100%;
+		height: 60px;
+		/*overflow: hidden;*/
+		/*background-color: green;*/
+	}
+	.nav-a .navason{
+		width: 1519px;
+		height: 60px;
+		margin: 0 auto;
+		overflow: hidden;
+		/*background-color: red;*/
+	}
+	.nav-a .navason a .nb{
+		display: block;
+		height: 60px;
+		float: left;
+	}
+	.nav-a .navason ul{
+		line-height: 60px;
+		margin-left: 50px;
+		float: left;
+	}
+	.nav-a .navason ul li{
+		float: left;
+		margin-right: 25px;
+	}
+	.nav-a .navason ul li a{
+		color: black;
+		font-weight: bold;
+		display: block;
+	}
+
+
+	/*隐藏导航*/
+	.nav-a .navason ul li .hid{
+		width:100%;
+		height: 100px;
+		background-color: white;
+		position: absolute;
+		top: 82px;
+		left: 0;
+		text-align: center;
+		/*line-height: 100px;*/
+		display: none;
+		border-right: 1px solid white;
+		border-bottom: 1px solid black;
+	}
+	.nav-a .navason ul li:hover .hid{
+		display: block;
+	}
+	.nav-a .navason ul li .hid .man{
+		margin-top: 20px;
+		margin-left: 600px;
+		float: left;
+	}
+	.nav-a .navason .hid .man a{
+		font-size: 14px;
+		color: #4C4C4C;
+	}
+	.nav-a .navason .hid .man a:hover{
+		color :red;
+		font-size: 14px;
+	}
+	.nav-a .navason .hid .woman{
+		margin-top: 20px;
+		margin-left: 150px;
+		float: left;
+	}
+	.nav-a .navason .hid .woman a{
+		font-size: 14px;
+		color: #4C4C4C;
+	}
+	.nav-a .navason .hid .woman a:hover{
+		color :red;
+		font-size: 14px;
+	}
+
+	/*搜索框*/
+	.nav-a .navason .sous{
+		width: 340px;
+		margin-left: 160px;
+		height: 40px;
+		margin-top: 10px;
+		float: left;
+		border: 1px solid #E5E5E5;	
+		display: flex;
+		align-items: center;
+	}
+	.nav-a .navason .sous .ss{
+		width: 280px;
+		margin-left: 10px;
+		border: none;
+	}
+	.nav-a .navason .sous .ss:focus{
+		border: none;
+		outline: none;
+	}
+
+	/*登录注册*/
+	.nav-a .user{
+		width: 300px;
+		height: 60px;
+		float: left;
+		margin-left: 60px;
+		display: flex;
+		align-items: center;
+		font-size: 14px;
+	}
+	.nav-a .user .dl{
+		height: 60px;
+		float: left;
+		line-height: 60px;
+	}
+	.nav-a .user .zc{
+		float: left;
+	}
+	.nav-a .user .gouwu{
+		float: left;
+		font-size: 12px;
+	}
+	.nav-a .user span a{
+		color: black;
+	}
+	.nav-a .user img{
+		margin-left: 15px;
+	}
+	.nav-a .user span a:hover{
+		color: red;
+	}
+
+	
+
+	/*尾部*/
+	/*这里是底部*/
+		.footerF{
+			width: 100%;
+			height: 440px;
+		}
+		.footer{
+			width: 1519px;
+			height: 440px;
+			background-color: #232323;
+			margin: 0 auto;
+		}
+		.footer .ftop .topson{
+			width: 1200px;
+			height: 80px;
+			/*background-color: green;*/
+		}
+		.footer .ftop .topson a img{
+			float: left;
+			height: 80px;
+			display: block;
+		}
+		.footer .ftop .topson a span{
+			float: left;
+			height: 80px;
+			line-height: 80px;
+			display: block;
+			margin-left: 20px;
+		}
+		.footer .ftop .topson a span:hover{
+			color: red;
+		}
+		.footer .ftop .topson a .topimg1{
+			margin-left: 500px;
+		}
+		.footer .ftop .topson a .topimg2{
+			margin-left: 170px;
+		}
+		.footer .fcenter{
+			width: 100%;
+			height: 260px;
+		}
+		.footer .fcenter .centerson{
+			width: 1030px;
+			height: 260px;
+			margin: 0 auto;
+			/*background-color: red;*/
+		}
+		.footer .fcenter .centerson .center4{
+			width: 250px;
+			height: 260px;
+			float: left;
+			/*border: 1px solid blue;*/
+			text-align: left;
+			color: white;
+			/*background-color: red;*/
+		}
+		.footer .fcenter .centerson .center4 ul{
+			margin-top: 10px;
+		}
+		.footer .fcenter .centerson .center4 ul li{
+			margin: 5px;
+		}
+		.footer .fcenter .centerson .center4 ul li p{
+			font-size: 12px;
+		}
+		.footer .fcenter .centerson .center4 ul li a{
+			font-size: 12px;
+		}
+		.footer .fcenter .centerson .center4 ul li a:hover{
+			color: red;
+		}
+		.footer .fbottom{
+			width: 100%;
+			height: 100px;
+		}
+		.footer .fbottom .bottomson{
+			width: 1200px;
+			margin: 0 auto;
+			padding-top: 30px;
+			text-align: center;
+			font-size: 12px;
+			color: #929092;
+		}
+		.footer .fbottom .bottomson a:hover{
+			color: red;
+		}
+		
+		/*固定*/
+		a .guding{
+			width: 40px;
+			height: 200px;
+			/*background-color: red;*/
+			position: fixed;
+			right: 0;
+			bottom: 100px;
+			background-image: url(../images/20.png);
+		}
+		a .backtop{
+			width: 45px;
+			height: 45px;
+			/*background-color: red;*/
+			position: fixed;
+			bottom: 0;
+			right: 40px;
+			background-image: url(../images/21.png);
+			background-size: 100% 100%;
+			border: 2px solid white;
+		}
+		a .backtop:hover{
+			border: 2px solid gray;
+		}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+
+	/*这里是头部图片*/
+	.header{
+		width: 100%;
+		height: 480px;	
+	}
+	.header .headson {
+		width: 1519px;
+		margin: 0 auto;
+		height: 480px;
+		background-image: url(../images/7.png);
+		background-size: 100% 480px;
+	}
+	
+	/*这里是展览区导航*/
+	.nav-b{
+		width: 100%;
+		height: 120px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.nav-b .nav-bson{
+		width: 1519px;
+		height: 120px;
+		margin: 0 auto;
+		background-color: #EFEFEF;
+		/*background-color: red;*/
+	}
+	.nav-b .nav-bson ul{
+		margin-left: 470px;
+	}
+	.nav-b .nav-bson ul li{
+		margin-right: 100px;
+		margin-top: 30px;
+		float: left;
+		display: block;
+	}
+	.nav-b .nav-bson ul li a{
+		color: black;
+	}
+	.nav-b .nav-bson ul li a p{
+		color: gray;
+		font-size: 14px;
+	}
+	.nav-b .nav-bson ul li a span{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	
+
+	/*这里是展览区*/
+	.main{
+		width: 100%;
+		height: 1680px;
+		/*background-color: skyblue;*/
+	}
+	.mainson{
+		width: 1200px;
+		height: 1680px;
+		margin: 0 auto;
+		/*background-color: red;*/
+	}
+	.main #jcn{
+		width: 1200px;
+		height: 300px;
+		background-image: url(../images/8.png);
+	}
+	.main .comimg{
+		width: 1200px;
+		height: 400px;
+		margin: 10px auto 0;
+	}
+	.main .comimg .com-left{
+		float: left;
+		width: 595px;
+	}
+	.main .comimg .com-right{
+		float: right;
+		width: 595px;
+	}
+	.main .comimg .com-left img,.main .comimg .com-right img{
+		width: 595px;
+		height: 300px;
+	}
+	.main .comimg .com-left .tex,.main .comimg .com-right .tex{
+		width: 250px;
+		margin: 0 auto;
+		text-align: center;
+		/*background-color: red;*/
+	}
+	.main .comimg .com-left .tex span,.main .comimg .com-right .tex span{
+		color: red;
+	}
+	.main .comimg .com-left .tex p,.main .comimg .com-right .tex p{
+		font-size: 13px;
+	}
+	.main .comimg .com-left .tex a span:hover,.main .comimg .com-right .tex a span:hover{
+		color: purple;
+	}
+
+
+	/*这里是动画*/
+	.animation{
+		width: 100%;
+		height: 550px;
+		/*background-color: #05100A;*/
+	}
+	.animation .animationson{
+		width: 1519px;
+		height: 550px;
+		margin: 0 auto;
+		background-image: url(../images/20.jpg);
+		width: 100% 550px;
+	}

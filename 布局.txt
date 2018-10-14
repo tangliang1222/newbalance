@@ -1,0 +1,44 @@
+整体布局
+
+1 aside
+2 nav-a
+3 header
+4 nav-b
+5 main
+6 animation
+7 footer
+
+媒体查询
+
+大屏
+小屏
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+遗留问题
+1标题图标
+2图片和文字都要垂直居中的方法（******）    右上角
+3竖线
+4可以对局部div使用flex布局 center
+5男子 女子 需要整体block
+6img p标签加class时  引用  xxx .class 不能xxx img .class
+7a ul li高度问题
+8共有的css想清楚使用
